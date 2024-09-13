@@ -1,6 +1,12 @@
-body {
-    font-family: monospace;
+* {
+    color: var(--fontColor);
+    font-family: Helvetica;
 }
+
+body {
+    background: var(--bg);
+}
+
 ul {
     font-family: Helvetica;
 }
@@ -13,11 +19,18 @@ li {
     list-style: square;
 }
 
-#msg {
-    font-family: monospace;
+.ligth-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
 }
 
-.ligth-theme {
-    color: #000000;
-    background: #00ff00;
+:root {
+    --green: #00ff00;
+    --withe: #ffffff;
+    --black: #000000;
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
 }
