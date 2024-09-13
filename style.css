@@ -5,3 +5,19 @@ ul {
     font-family: Helvetica;
 }
 
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#msg {
+    font-family: monospace;
+}
+
+.ligth-theme {
+    color: #000000;
+    background: #00ff00;
+}
